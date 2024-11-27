@@ -10,7 +10,7 @@ class AppException implements Exception{
 }
 
 class NoInternetException extends AppException{
-  NoInternetException([String?message]):super(message,'No Internet Exception');
+  NoInternetException([String?message]):super(message,'No Internet,please connect internet');
 }
 
 class UnauthorizedException extends AppException{
